@@ -70,6 +70,10 @@ class _CounterPageState extends State<CounterPage> {
           },
         )
 
+
+        //-------- BLOC BUILDER -----------------//
+
+
         //BlocBuilder<CounterBloc, CounterState>(
         //   bloc: counterBloc,
         //   builder: (context, state) {
@@ -95,6 +99,8 @@ class _CounterPageState extends State<CounterPage> {
             // }
         //   },
         // ),
+
+        // ---------------- BLOC LISTENER --------------//
 
         //   BlocListener<CounterBloc, CounterState>(
         //   bloc: counterBloc,
